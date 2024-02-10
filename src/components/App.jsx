@@ -40,7 +40,7 @@ export class App extends Component {
     const { good, neutral, bad } = this.state;
 
     return (
-      <div>
+      <div style={{ margin: '35vh', marginLeft: 'auto', marginRight: 'auto' }}>
         <Section title="Please leave feedback">
           <FeedbackOptions
             options={Object.keys(this.state)}
